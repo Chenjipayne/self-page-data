@@ -1610,8 +1610,75 @@ textarea.message {
 	}
 }
 
-
-
-
-
 /*-- //Responsive-Code --*/
+
+/** ARTICLES **/
+
+article img {
+	border: none;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+
+#content p, ul, ol, hr {
+	margin-bottom: 24px;
+}
+
+#content ul ul, ol ol, ul ol, ol ul {
+	margin-bottom: 0;
+}
+
+#content h1, h2, h3, h4, h5, h6 {
+	color: #333;
+	margin: 0 0 20px 0;
+	line-height: 1.5em;
+}
+
+.alignleft, img.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 10px;
+}
+
+.alignright, img.alignright {
+	display: inline;
+	float: right;
+	margin-left: 10px;
+}
+
+.aligncenter, img.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/** ARTICLES **/
+
+/* layout */
+#main {
+	width: 940px;
+	margin: 0 auto;
+	padding-top: 30px;
+	background-color: #F5F5F5;
+	overflow: hidden;
+}
+
+#wrapper {
+	width: 940px;
+	margin: 0 auto;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	-webkit-box-shadow: 3px 3px 7px #777;
+	-moz-box-shadow: 3px 3px 7px #777;
+}
+#content {
+	float: left;
+	width: 640px;
+	margin-left: 30px;
+}
+
+#sidebar {
+	float: right;
+	padding-left: 20px;
+	width: 220px;
+}
