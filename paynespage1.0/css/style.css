@@ -6,6 +6,7 @@ body {
 }
 
 body a {
+	color: #191970;
 	transition: 0.5s all;
 	-webkit-transition: 0.5s all;
 	-moz-transition: 0.5s all;
@@ -39,6 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
 	margin: 0;
+
 }
 
 ul {
@@ -314,7 +316,7 @@ a:focus, a:hover {
 }
 
 .agileabout-grid-1 p {
-	color: #777;
+	color: #333333;
 	font-size: 15px;
 	line-height: 30px;
 }
@@ -410,45 +412,7 @@ a:focus, a:hover {
 	padding: 0;
 }
 
-.Blogs-grid-1a {
-	background-image: url("../images/service-1a.jpg");
-}
 
-.Blogs-grid-1b {
-	background-image: url("../images/service-1b.jpg");
-}
-
-.Blogs-grid-2a {
-	background-image: url("../images/service-1b.jpg");
-}
-
-.Blogs-grid-2b {
-	background-image: url("../images/service-2b.jpg");
-}
-
-.Blogs-grid-3a {
-	background-image: url("../images/service-3a.jpg");
-}
-
-.Blogs-grid-3b {
-	background-image: url("../images/service-1b.jpg");
-}
-
-.Blogs-grid-4a {
-	background-image: url("../images/service-1b.jpg");
-}
-
-.Blogs-grid-4b {
-	background-image: url("../images/service-4b.jpg");
-}
-
-.Blogs-grid-6a {
-	background-image: url("../images/service-6a.jpg");
-}
-
-.Blogs-grid-6b {
-	background-image: url("../images/service-1b.jpg");
-}
 
 .Blogs-grid p {
 	position: absolute;
@@ -463,6 +427,9 @@ a:focus, a:hover {
 	line-height: 30px;
 	text-align: center;
 	background-color: rgba(0,0,0,0.75);
+}
+.Blogs a {
+	color: #191970;
 }
 
 /*-- //Services --*/
@@ -1681,4 +1648,14 @@ article img {
 	float: right;
 	padding-left: 20px;
 	width: 220px;
+}
+.blog-alert a{
+	color: darkblue;
+}
+.blog-alert p{
+	color: #000000;
+	font-family: 等线;
+}
+.blog-alert {
+	text-indent:2em;
 }
