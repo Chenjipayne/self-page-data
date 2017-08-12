@@ -1659,8 +1659,8 @@ article img {
 	width: 940px;
 	margin: 0 auto;
 	padding-top: 30px;
-	background-color: #F5F5F5;
 	overflow: hidden;
+	background-color:rgba(200, 200, 200, 0.5);
 }
 
 #wrapper {
